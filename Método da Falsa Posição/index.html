@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Método da Falsa Posição</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a href="../index.html">&lAarr;</a>
+    <div class="box">
+        <h1>Método da Falsa Posição</h1>
+        <div id="form">
+            <p style="display: inline;">Expressão matemática (somente X):</p>
+            <input type="text" name="expressao" id="expressao" value="POW(x, 3) - 7">
+            <p>OBS: para alguns operações existem funções. POW(x, y), LOG(x, base), LN(x).</p>
+            <br>
+            <p style="display: inline;">Precisao:</p>
+            <input type="number" name="precisao" id="precisao" value="0.05">
+            <br>
+            <br>
+            <p style="display: inline;">Valor F(x):</p>
+            <input type="number" name="valfx" id="valfx" value="0">
+            <br>
+            <br>
+            <p style="display: inline;">Valor menor (A):</p>
+            <input type="number" name="valmna" id="valmna" value="1">
+            <br>
+            <br>
+            <p style="display: inline;">Valor menor (B):</p>
+            <input type="number" name="valmnb" id="valmnb" value="2">
+            <br>
+            <br>
+            <p style="display: inline;">Casas:</p>
+            <input type="number" name="casas" id="casas" value="3">
+            <br>
+            <br>
+            <input type="button" value="calcular" onclick="calcular()">
+        </div>
+        <br>
+        <div id="restxt">
+
+        </div>
+        
+    </div>
+
+</div>
+    <script src="script.js"></script>
+</body>
+</html>

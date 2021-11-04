@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(200, 200, 200);
+    font: normal 1em Arial;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 1%;
+    margin: 1.5% auto;
+    border-radius: 15px;
+    display: block;
+    width: 250px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+}
+
+a:hover{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 1%;
+    margin: 1.5% auto;
+    border-radius: 15px;
+    display: block;
+    width: 250px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25);
+    transform: scale(1.05);
+    transition: 0.4s;
+}
+
+h1{
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
